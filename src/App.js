@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Frase from './components/Frase';
 
 function App() {
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1> Olá estou começanco a programar no React :v</h1>
+     <img src={logo} className="App-logo" alt="logo" />
+     <SayMyName nome="lays"/>
+     <Frase/>
+     <HelloWorld/>
     </div>
   );
 }
